@@ -36,7 +36,6 @@ public class Assignment extends JComponent {
         });
 
         final class TimeListener implements ActionListener {
-
             @Override
             public void actionPerformed(ActionEvent e) {
                 animation.animate();
@@ -46,7 +45,6 @@ public class Assignment extends JComponent {
         ActionListener listener = new TimeListener();
         timer = new Timer(10, listener);
         timer.start();
-
     }
 
     public void initialize() {
@@ -70,7 +68,6 @@ public class Assignment extends JComponent {
         this.frame.setVisible(Boolean.TRUE);
         this.frame.add(animation);
     }
-
 
     public static void main(String[] args) {
 
