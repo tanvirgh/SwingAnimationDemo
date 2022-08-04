@@ -20,7 +20,9 @@ public class Animation extends JComponent {
     private int height=50;
     private  int moveStepSize=10;
 
-    int max_x,max_y;
+     int max_x,max_y;
+
+
 
     public Animation(int w,int h){
         this.max_x=w;
@@ -33,6 +35,7 @@ public class Animation extends JComponent {
 
         gr.setColor(Color.BLACK);
         gr.drawRect(x,y,width,height);
+
 
     }
 
