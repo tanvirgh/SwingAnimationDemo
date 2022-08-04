@@ -18,8 +18,6 @@ public class Assignment extends JComponent {
     Timer timer;
     static int counter = 0 ;
 
-
-
     public Assignment() {
         initialize();
 
